@@ -1,0 +1,29 @@
+<template>
+    <div>
+        <el-container>
+            <el-header>图标、登录、消息</el-header>
+            <el-main>
+                <el-breadcrumb separator="|">
+                    <el-breadcrumb-item :to="{ path: '/' }">Welcome</el-breadcrumb-item>
+                    <el-breadcrumb-item :to="{ path: '/projects' }">Projects </el-breadcrumb-item>
+                    <el-breadcrumb-item>promotion list</el-breadcrumb-item>
+                    <el-breadcrumb-item>promotion detail</el-breadcrumb-item>
+                </el-breadcrumb>
+                <router-view></router-view>
+            </el-main>
+            <el-footer>页脚</el-footer>
+        </el-container>
+    </div>
+</template>
+
+<script setup lang="ts">
+import { onMounted, ref } from 'vue';
+import { useRouter, useRoute } from 'vue-router'
+
+onMounted(() => {
+    useRouter().push('/')
+})
+
+</script>
+
+<style scoped></style>
