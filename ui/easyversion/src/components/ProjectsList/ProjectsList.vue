@@ -44,11 +44,11 @@ const projects_list : ProjectsList = reactive({
 })
 
 const entry_detail = (project_id: string ) => {
-  console.log('Entry detail of {project_id}')
+  console.log(`Entry detail of ${project_id}`)
 }
 
 const entry_project = (project_id: string ) => {
-  console.log('Entry project of {project_id}')
+  console.log(`Entry project of ${project_id}`)
 }
 
 
