@@ -8,8 +8,6 @@
                 <el-breadcrumb separator="|">
                     <el-breadcrumb-item :to="{ path: '/' }">Welcome</el-breadcrumb-item>
                     <el-breadcrumb-item :to="{ path: '/projects' }">Projects </el-breadcrumb-item>
-                    <el-breadcrumb-item>promotion list</el-breadcrumb-item>
-                    <el-breadcrumb-item>promotion detail</el-breadcrumb-item>
                 </el-breadcrumb>
                 <router-view></router-view>
             </el-main>
@@ -29,4 +27,5 @@ onMounted(() => {
 
 </script>
 
-<style scoped></style>
+<style scoped>
+</style>
