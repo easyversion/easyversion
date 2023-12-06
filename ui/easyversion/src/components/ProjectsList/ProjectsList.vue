@@ -8,6 +8,10 @@
 
 <script setup lang="ts">
 import { reactive } from 'vue';
+import { useRouter } from 'vue-router';
+
+//必须在这接收router，在别的作用域会报undefined
+const router = useRouter()
 
 interface Project {
     id : string,
@@ -49,6 +53,9 @@ const entry_detail = (project_id: string ) => {
 
 const entry_project = (project_id: string ) => {
   console.log(`Entry project of ${project_id}`)
+  //router.push({path:'/project/123456'})
+  //必须使用name 如果使用了path params将被忽略
+  router.push({ name: 'project', params: { project_id:'123124' } })
 }
 
 
