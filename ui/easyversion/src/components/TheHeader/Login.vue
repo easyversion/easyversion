@@ -1,5 +1,5 @@
 <template>
-    <el-row gutter="1">
+    <el-row>
         <el-col :span="8">
             <el-input v-model="log_info.user_id" placeholder="Please input" />
         </el-col>

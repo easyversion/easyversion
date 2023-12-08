@@ -1,0 +1,24 @@
+{
+    "projects":[
+        {
+            "name":"project_name_1",
+            "version":"1.0.0",
+            "id":"project_id_1"
+        },
+        {
+            "name":"project_name_2",
+            "version":"1.0.1",
+            "id":"project_id_2"
+        },
+        {
+            "name":"project_name_3",
+            "version":"1.0.2",
+            "id":"project_id_3"
+        },
+        {
+            "name":"project_name_4",
+            "version":"1.0.3",
+            "id":"project_id_4"
+        }
+    ]
+}

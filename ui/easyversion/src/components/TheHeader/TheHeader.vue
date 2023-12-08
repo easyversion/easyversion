@@ -1,5 +1,5 @@
 <template>
-    <el-row gutter="1">
+    <el-row>
         <el-col :span="2">
             LOGO
         </el-col>

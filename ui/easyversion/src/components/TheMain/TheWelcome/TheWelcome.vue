@@ -1,5 +1,5 @@
 <template>
-    <p>我的目的是让文档不在难于管理</p>
+    <h3>让文档不在只是理想</h3>
 </template>
 
 <script setup lang="ts">
