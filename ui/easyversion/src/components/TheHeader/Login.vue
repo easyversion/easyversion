@@ -45,4 +45,3 @@ let log_info: LogInfo = reactive(
     flex: 1;
 }
 </style>
-  
