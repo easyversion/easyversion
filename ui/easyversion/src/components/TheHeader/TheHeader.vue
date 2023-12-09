@@ -1,19 +1,97 @@
 <template>
     <el-row>
         <el-col :span="3">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0" y="0" width="24" height="21.928261850394456" viewBox="139.4 97.04146423339844 61.2 55.91706771850586" preserveAspectRatio="xMidYMid meet" color-interpolation-filters="sRGB"><g><defs><linearGradient id="92" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#fa71cd"></stop> <stop offset="100%" stop-color="#9b59b6"></stop></linearGradient><linearGradient id="93" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#f9d423"></stop> <stop offset="100%" stop-color="#f83600"></stop></linearGradient><linearGradient id="94" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#0064d2"></stop> <stop offset="100%" stop-color="#1cb0f6"></stop></linearGradient><linearGradient id="95" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#f00978"></stop> <stop offset="100%" stop-color="#3f51b1"></stop></linearGradient><linearGradient id="96" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#7873f5"></stop> <stop offset="100%" stop-color="#ec77ab"></stop></linearGradient><linearGradient id="97" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#f9d423"></stop> <stop offset="100%" stop-color="#e14fad"></stop></linearGradient><linearGradient id="98" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#009efd"></stop> <stop offset="100%" stop-color="#2af598"></stop></linearGradient><linearGradient id="99" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#ffcc00"></stop> <stop offset="100%" stop-color="#00b140"></stop></linearGradient><linearGradient id="100" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#d51007"></stop> <stop offset="100%" stop-color="#ff8177"></stop></linearGradient><linearGradient id="102" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#a2b6df"></stop> <stop offset="100%" stop-color="#0c3483"></stop></linearGradient><linearGradient id="103" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#7ac5d8"></stop> <stop offset="100%" stop-color="#eea2a2"></stop></linearGradient><linearGradient id="104" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00ecbc"></stop> <stop offset="100%" stop-color="#007adf"></stop></linearGradient><linearGradient id="105" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#b88746"></stop> <stop offset="100%" stop-color="#fdf5a6"></stop></linearGradient></defs><g class="imagesvg isNoFont" transform="translate(140,97.64146614074707)"><g><rect fill="#333" fill-opacity="0" stroke-width="2" x="0" y="0" width="60" height="54.71706716519995" class="image-rect"></rect> <svg x="0" y="0" width="60" height="54.71706716519995" filtersec="colorsb6750668997" class="image-svg-svg primary" style="overflow: visible;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0.007376670837402344 0.017479896545410156 109.63544464111328 99.98246765136719"><g fill-rule="evenodd"><path d="M46.12 21.84c-2.94-8.25-7.27-15.43-1.06-17.59C53.49 1.3 60.41-3 62.64 3.15c3 8.39 7.23 15.37 1.06 17.6L52.39 24.8c-10.91 3.9-8.55 23-5.62 31.19C54.16 76.67 23 87.73 15.59 67.14A16.58 16.58 0 0 1 25.61 46c3.09 0 23.98-14.41 20.51-24.16z" fill="#104e70"></path><path d="M83.51 43C82 51 84.92 71.28 93.82 73c8.39 1.62 17 1.62 15.69 8-1.83 9.17-1.67 16.89-8 15.7-8.37-1.59-16.91-1.65-15.69-8l2.28-11.82c2.18-11.39-15.46-19.05-24-20.7A16.53 16.53 0 0 1 51 36.77C55.1 15.24 87.68 21.51 83.51 43z" fill="#2491eb"></path><path d="M25.67 89.11c-6.16 7.08-10 13.8-14.81 9.58-7-6.13-13.74-9.91-9.57-14.79 4.8-5.62 9.76-14 14.8-9.58l9.08 7.9c8.74 7.57 24.23-3.87 29.9-10.44a16.58 16.58 0 0 1 23.38-1.65c16.57 14.44-5.21 39.37-21.72 25 2.5.04-23.48-14.74-31.06-6.02z" fill="#85c4f5"></path></g></svg></svg> </g></g><defs v-gra="od"></defs></g></svg>
-            EasyVersion
-        </el-col>
-        <el-col :span="16">
-            <Login/>
-        </el-col>
-    </el-row>
-</template>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0" y="0"
+                width="24" height="21.928261850394456" viewBox="139.4 97.04146423339844 61.2 55.91706771850586"
+                preserveAspectRatio="xMidYMid meet" color-interpolation-filters="sRGB">
+                <g>
+                    <defs>
+                        <linearGradient id="92" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#fa71cd"></stop>
+                            <stop offset="100%" stop-color="#9b59b6"></stop>
+                        </linearGradient>
+                        <linearGradient id="93" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#f9d423"></stop>
+                            <stop offset="100%" stop-color="#f83600"></stop>
+                        </linearGradient>
+                        <linearGradient id="94" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#0064d2"></stop>
+                            <stop offset="100%" stop-color="#1cb0f6"></stop>
+                        </linearGradient>
+                        <linearGradient id="95" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#f00978"></stop>
+                        <stop offset="100%" stop-color="#3f51b1"></stop>
+                    </linearGradient>
+                    <linearGradient id="96" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#7873f5"></stop>
+                        <stop offset="100%" stop-color="#ec77ab"></stop>
+                    </linearGradient>
+                    <linearGradient id="97" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#f9d423"></stop>
+                        <stop offset="100%" stop-color="#e14fad"></stop>
+                    </linearGradient>
+                    <linearGradient id="98" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#009efd"></stop>
+                        <stop offset="100%" stop-color="#2af598"></stop>
+                    </linearGradient>
+                    <linearGradient id="99" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#ffcc00"></stop>
+                        <stop offset="100%" stop-color="#00b140"></stop>
+                    </linearGradient>
+                    <linearGradient id="100" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#d51007"></stop>
+                        <stop offset="100%" stop-color="#ff8177"></stop>
+                    </linearGradient>
+                    <linearGradient id="102" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#a2b6df"></stop>
+                        <stop offset="100%" stop-color="#0c3483"></stop>
+                    </linearGradient>
+                    <linearGradient id="103" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#7ac5d8"></stop>
+                        <stop offset="100%" stop-color="#eea2a2"></stop>
+                    </linearGradient>
+                    <linearGradient id="104" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#00ecbc"></stop>
+                        <stop offset="100%" stop-color="#007adf"></stop>
+                    </linearGradient>
+                    <linearGradient id="105" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#b88746"></stop>
+                        <stop offset="100%" stop-color="#fdf5a6"></stop>
+                    </linearGradient>
+                </defs>
+                <g class="imagesvg isNoFont" transform="translate(140,97.64146614074707)">
+                    <g>
+                        <rect fill="#333" fill-opacity="0" stroke-width="2" x="0" y="0" width="60"
+                            height="54.71706716519995" class="image-rect"></rect> <svg x="0" y="0" width="60"
+                            height="54.71706716519995" filtersec="colorsb6750668997" class="image-svg-svg primary"
+                            style="overflow: visible;"><svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0.007376670837402344 0.017479896545410156 109.63544464111328 99.98246765136719">
+                                <g fill-rule="evenodd">
+                                    <path
+                                        d="M46.12 21.84c-2.94-8.25-7.27-15.43-1.06-17.59C53.49 1.3 60.41-3 62.64 3.15c3 8.39 7.23 15.37 1.06 17.6L52.39 24.8c-10.91 3.9-8.55 23-5.62 31.19C54.16 76.67 23 87.73 15.59 67.14A16.58 16.58 0 0 1 25.61 46c3.09 0 23.98-14.41 20.51-24.16z"
+                                        fill="#104e70"></path>
+                                    <path
+                                        d="M83.51 43C82 51 84.92 71.28 93.82 73c8.39 1.62 17 1.62 15.69 8-1.83 9.17-1.67 16.89-8 15.7-8.37-1.59-16.91-1.65-15.69-8l2.28-11.82c2.18-11.39-15.46-19.05-24-20.7A16.53 16.53 0 0 1 51 36.77C55.1 15.24 87.68 21.51 83.51 43z"
+                                        fill="#2491eb"></path>
+                                    <path
+                                        d="M25.67 89.11c-6.16 7.08-10 13.8-14.81 9.58-7-6.13-13.74-9.91-9.57-14.79 4.8-5.62 9.76-14 14.8-9.58l9.08 7.9c8.74 7.57 24.23-3.87 29.9-10.44a16.58 16.58 0 0 1 23.38-1.65c16.57 14.44-5.21 39.37-21.72 25 2.5.04-23.48-14.74-31.06-6.02z"
+                                        fill="#85c4f5"></path>
+                                </g>
+                            </svg></svg>
+                    </g>
+                </g>
+            </g>
+        </svg>
+        EasyVersion
+    </el-col>
+    <el-col :span="16">
+        <Login />
+    </el-col>
+</el-row></template>
 
 <script setup lang="ts">
 import Login from './Login.vue';
 
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

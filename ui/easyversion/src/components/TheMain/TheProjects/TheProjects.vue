@@ -37,10 +37,18 @@ interface RootObject {
   projects: Project[];
 }
 
+interface Article {
+  id: string;
+  title: string;
+  version: string;
+  chilren?: Article[];
+}
+
 interface Project {
   name: string;
   version: string;
   id: string;
+  articles: Article[];
 }
 
 const onEntrance  = (project : Project) => {
