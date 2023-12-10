@@ -10,21 +10,16 @@
                   项目名称： {{ project_item?.name }}
                 </div>
                 <div style="display: flex; flex: 1;">
-                  <el-select v-model="select_version" class="m-2" placeholder="Select">
-                    <el-option
-                      v-for="item in options"
-                      :key="item.value"
-                      :label="item.label"
-                      :value="item.value"
-                    />
-                  </el-select>
+                  项目版本：{{ project_item.versions }}
                 </div>
               </div>
             </el-header>
             <el-container>
-                <el-aside width="200px"><el-tree :data="project_item?.articles" :props="defaultProps" @node-click="handleNodeClick" /></el-aside>
+                <el-aside width="200px">
+                  <el-tree :data="articles" :props="defaultProps" @node-click="handleNodeClick" />
+                </el-aside>
                 <el-main>
-                  这里展示文章
+                  包含的文章：{{ project_item.articles }}
                 </el-main>
                 <el-aside width="200px">这边是参考文档</el-aside>
             </el-container>
@@ -36,21 +31,17 @@
 import { reactive, ref } from 'vue';
 import { useRoute } from 'vue-router'
 import { projects } from './projects.json'
+import type {ProjectInterface, ArticleInterface} from './ProjectDef'
 
 const route = useRoute()
 
-const project_item = projects.find((item) => {
+const project_item : ProjectInterface | undefined = projects.find((item) => {
     return item.id === route.params.id
 })
 
-interface Article {
-  id: string;
-  title: string;
-  version: string;
-  chilren?: Article[];
-}
+const articles : ArticleInterface[] | undefined = project_item?.articles;
 
-const handleNodeClick = (data: Article) => {
+const handleNodeClick = (data: ArticleInterface) => {
   console.log(data)
 }
 
@@ -61,28 +52,6 @@ const defaultProps = {
 
 const select_version = ref('')
 
-const options = [
-  {
-    value: '4.0.1',
-    label: '4.0.1',
-  },
-  {
-    value: '3.0.1',
-    label: '3.0.1',
-  },
-  {
-    value: '2.0.1',
-    label: '2.0.1',
-  },
-  {
-    value: '1.0.1',
-    label: '1.0.1',
-  },
-  {
-    value: '0.0.1',
-    label: '0.0.1',
-  },
-]
 
 </script>
 

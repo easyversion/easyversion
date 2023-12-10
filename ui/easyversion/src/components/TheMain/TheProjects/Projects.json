@@ -1,237 +1,60 @@
 {
     "projects":[
         {
-            "name":"project_name_1",
-            "version":"2.0.0",
             "id":"project_id_1",
+            "name":"project_name_1",
+            "versions":["3.0.0","2.0.0", "1.0.0"],
             "articles":[
                 {
                     "id":"articles_1",
                     "title":"title_1",
-                    "version":"1.0.0",
+                    "versions":["1.2.0", "1.1.0", "1.0.0"],
                     "articles": [
                         {
                             "id":"articles_1_1",
                             "title":"title_1_1",
-                            "version":"1.0.0"
+                            "versions":["1.2.0", "1.1.0", "1.0.0"]
                         },
                         {
                             "id":"articles_1_2",
                             "title":"title_1_2",
-                            "version":"1.0.0"
+                            "versions":["1.2.0", "1.1.0", "1.0.0"]
                         },
                         {
                             "id":"articles_1_3",
                             "title":"title_1_3",
-                            "version":"1.0.0"
+                            "versions":["1.2.0", "1.1.0", "1.0.0"]
                         }
                     ]
                 },
                 {
                     "id":"articles_2",
                     "title":"title_1",
-                    "version":"1.0.0",
+                    "versions":["1.2.0", "1.1.0", "1.0.0"],
                     "articles":null
                 },
                 {
                     "id":"articles_3",
                     "title":"title_3",
-                    "version":"1.0.0",
+                    "versions":["1.2.0", "1.1.0", "1.0.0"],
                     "articles":null
                 },
                 {
                     "id":"articles_4",
                     "title":"title_4",
-                    "version":"1.0.0",
+                    "versions":["1.2.0", "1.1.0", "1.0.0"],
                     "articles":null
                 },
                 {
                     "id":"articles_5",
                     "title":"title_5",
-                    "version":"1.0.0",
+                    "versions":["1.2.0", "1.1.0", "1.0.0"],
                     "articles":null
                 },
                 {
                     "id":"articles_6",
                     "title":"title_6",
-                    "version":"1.0.0",
-                    "articles":null
-                }
-            ]
-        },
-        {
-            "name":"project_name_2",
-            "version":"2.0.0",
-            "id":"project_id_2",
-            "articles":[
-                {
-                    "id":"articles_1",
-                    "title":"title_1",
-                    "version":"1.0.0",
-                    "articles": [
-                        {
-                            "id":"articles_1_1",
-                            "title":"title_1_1",
-                            "version":"1.0.0"
-                        },
-                        {
-                            "id":"articles_1_2",
-                            "title":"title_1_2",
-                            "version":"1.0.0"
-                        },
-                        {
-                            "id":"articles_1_3",
-                            "title":"title_1_3",
-                            "version":"1.0.0"
-                        }
-                    ]
-                },
-                {
-                    "id":"articles_2",
-                    "title":"title_1",
-                    "version":"1.0.0",
-                    "articles":null
-                },
-                {
-                    "id":"articles_3",
-                    "title":"title_3",
-                    "version":"1.0.0",
-                    "articles":null
-                },
-                {
-                    "id":"articles_4",
-                    "title":"title_4",
-                    "version":"1.0.0",
-                    "articles":null
-                },
-                {
-                    "id":"articles_5",
-                    "title":"title_5",
-                    "version":"1.0.0",
-                    "articles":null
-                },
-                {
-                    "id":"articles_6",
-                    "title":"title_6",
-                    "version":"1.0.0",
-                    "articles":null
-                }
-            ]
-        },
-        {
-            "name":"project_name_3",
-            "version":"2.0.0",
-            "id":"project_id_3",
-            "articles":[
-                {
-                    "id":"articles_1",
-                    "title":"title_1",
-                    "version":"1.0.0",
-                    "articles": [
-                        {
-                            "id":"articles_1_1",
-                            "title":"title_1_1",
-                            "version":"1.0.0"
-                        },
-                        {
-                            "id":"articles_1_2",
-                            "title":"title_1_2",
-                            "version":"1.0.0"
-                        },
-                        {
-                            "id":"articles_1_3",
-                            "title":"title_1_3",
-                            "version":"1.0.0"
-                        }
-                    ]
-                },
-                {
-                    "id":"articles_2",
-                    "title":"title_1",
-                    "version":"1.0.0",
-                    "articles":null
-                },
-                {
-                    "id":"articles_3",
-                    "title":"title_3",
-                    "version":"1.0.0",
-                    "articles":null
-                },
-                {
-                    "id":"articles_4",
-                    "title":"title_4",
-                    "version":"1.0.0",
-                    "articles":null
-                },
-                {
-                    "id":"articles_5",
-                    "title":"title_5",
-                    "version":"1.0.0",
-                    "articles":null
-                },
-                {
-                    "id":"articles_6",
-                    "title":"title_6",
-                    "version":"1.0.0",
-                    "articles":null
-                }
-            ]
-        },
-        {
-            "name":"project_name_4",
-            "version":"2.0.0",
-            "id":"project_id_4",
-            "articles":[
-                {
-                    "id":"articles_1",
-                    "title":"title_1",
-                    "version":"1.0.0",
-                    "articles": [
-                        {
-                            "id":"articles_1_1",
-                            "title":"title_1_1",
-                            "version":"1.0.0"
-                        },
-                        {
-                            "id":"articles_1_2",
-                            "title":"title_1_2",
-                            "version":"1.0.0"
-                        },
-                        {
-                            "id":"articles_1_3",
-                            "title":"title_1_3",
-                            "version":"1.0.0"
-                        }
-                    ]
-                },
-                {
-                    "id":"articles_2",
-                    "title":"title_1",
-                    "version":"1.0.0",
-                    "articles":null
-                },
-                {
-                    "id":"articles_3",
-                    "title":"title_3",
-                    "version":"1.0.0",
-                    "articles":null
-                },
-                {
-                    "id":"articles_4",
-                    "title":"title_4",
-                    "version":"1.0.0",
-                    "articles":null
-                },
-                {
-                    "id":"articles_5",
-                    "title":"title_5",
-                    "version":"1.0.0",
-                    "articles":null
-                },
-                {
-                    "id":"articles_6",
-                    "title":"title_6",
-                    "version":"1.0.0",
+                    "versions":["1.2.0", "1.1.0", "1.0.0"],
                     "articles":null
                 }
             ]
